@@ -5,7 +5,9 @@ CNN模型
 '''
 import time
 import numpy as np
-import tensorflow as tf
+#import tensorflow as tf
+import tensorflow.compat.v1 as tf
+tf.disable_v2_behavior()
 import dataset
 
 MODEL_SEVE_PATH = '../model/model.ckpt'
@@ -257,7 +259,7 @@ def demo_run(data):
 
 if __name__=='__main__':
 
-    train_model()
+    #train_model()
     test_model()
 
 
