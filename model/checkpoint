@@ -1,2 +1,2 @@
-model_checkpoint_path: "sisfall_fall_peak_random_balanced_model.ckpt"
-all_model_checkpoint_paths: "sisfall_fall_peak_random_balanced_model.ckpt"
+model_checkpoint_path: "mobifall_peak4s_random_balanced_model.ckpt"
+all_model_checkpoint_paths: "mobifall_peak4s_random_balanced_model.ckpt"
